@@ -29,7 +29,7 @@ export default function Footer() {
         
         <div className="text-center mt-6">
           <p className="text-xs text-gray-400">
-            © 2024 メルカリ利益計算機. All rights reserved.
+            © 2026 メルカリ利益計算機. All rights reserved.
           </p>
         </div>
       </div>
