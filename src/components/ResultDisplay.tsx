@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import type { CalculationResult } from '../types';
 
 interface ResultDisplayProps {
   result: CalculationResult | null;

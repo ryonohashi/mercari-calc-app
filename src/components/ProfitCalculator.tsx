@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { ShippingMethod, CalculationResult } from '../types';
+import type { CalculationResult } from '../types';
 import { SHIPPING_METHODS, MIN_SELLING_PRICE, MAX_SELLING_PRICE } from '../constants/shipping';
 import { calculateAll } from '../utils/calculations';
 

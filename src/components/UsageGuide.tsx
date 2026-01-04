@@ -1,4 +1,4 @@
-import { HelpCircle, DollarSign, Truck, Package, TrendingUp } from 'lucide-react';
+import { DollarSign, Truck, Package, TrendingUp } from 'lucide-react';
 
 export default function UsageGuide() {
   return (

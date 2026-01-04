@@ -1,4 +1,4 @@
-import { ShippingMethod } from '../types';
+import type { ShippingMethod } from '../types';
 
 export const SHIPPING_METHODS: ShippingMethod[] = [
   { id: 'yuupacket-mini', name: 'ゆうパケットポストmini', shippingFee: 160, boxFee: 20 },

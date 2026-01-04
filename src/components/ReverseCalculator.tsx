@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ShippingMethod } from '../types';
+import type { ShippingMethod } from '../types';
 import { calculateTotalShipping, calculateRequiredPrice } from '../utils/calculations';
 
 interface ReverseCalculatorProps {

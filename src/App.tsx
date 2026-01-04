@@ -6,7 +6,7 @@ import ReverseCalculator from './components/ReverseCalculator';
 import ContentSection from './components/ContentSection';
 import Footer from './components/Footer';
 import StructuredData from './components/StructuredData';
-import { CalculationResult } from './types';
+import type { CalculationResult } from './types';
 import { SHIPPING_METHODS } from './constants/shipping';
 
 function App() {

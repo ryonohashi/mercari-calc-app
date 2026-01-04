@@ -1,4 +1,4 @@
-import { ShippingMethod, CalculationResult } from '../types';
+import type { ShippingMethod, CalculationResult } from '../types';
 import { COMMISSION_RATE } from '../constants/shipping';
 
 /**
