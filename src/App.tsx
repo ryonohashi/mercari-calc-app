@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import StructuredData from './components/StructuredData';
 import type { CalculationResult } from './types';
 import { SHIPPING_METHODS } from './constants/shipping';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [calculationResult, setCalculationResult] = useState<CalculationResult | null>(null);
@@ -88,6 +90,8 @@ function App() {
         {/* フッター */}
         <Footer />
       </main>
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
